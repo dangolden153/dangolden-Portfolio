@@ -28,7 +28,9 @@ class Skills extends React.Component {
                 <ul>
                   <li>HTML</li>
                   <li>CSS</li>
-                  <li>Bootstrap | JQuery</li>
+                  <li>Tailwind CSS</li>
+                  <li>Semantic UI</li>
+                  <li>UI/UX</li>
                 </ul>
               </div>
               <div className="skills">
@@ -36,6 +38,9 @@ class Skills extends React.Component {
                 <ul>
                   <li>JavaScript</li>
                   <li>React.Js</li>
+                  <li>React Native</li>
+                  <li>Next.Js</li>
+                  <li>Redux</li>
                 </ul>
               </div>
               <div className="skills">
@@ -44,8 +49,9 @@ class Skills extends React.Component {
                   <li>Node JS</li>
                   <li>Mongo DB</li>
                   <li>Express JS</li>
-                  <li>C#</li>
-                  <li>Asp .Net Core</li>
+                  <li>Firebase#</li>
+                  <li>Aws</li>
+                  <li>Git</li>
                 </ul>
               </div>
             </div>

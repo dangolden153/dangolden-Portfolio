@@ -1,10 +1,11 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import $ from "jquery";
-
+// import $ from "jquery";
+import mail from "../img/gmail.png";
+import phone from "../img/phone-call.png";
+import location from "../img/pin.png";
 
 class Contact extends React.Component {
-
   render() {
     return (
       <div id="contact" className="container contactWrapper">
@@ -22,7 +23,15 @@ class Contact extends React.Component {
               <div className="contactDetails">
                 <div className="centered">
                   <div className="iconBg centered">
-                    <span className="icon icon-home"></span>
+                    <span className="icon icon-home">
+                      {/* iccon should be displayed here....*/}
+                      <img
+                        className="img"
+                        src={location}
+                        alt="mail"
+                        style={{ height: "30px", width: "30px" }}
+                      />
+                    </span>
                   </div>
                 </div>
                 <div>
@@ -38,12 +47,19 @@ class Contact extends React.Component {
               <a href="tel:+234-703-068-0817" className="contactDetails">
                 <div className="centered">
                   <div className="iconBg centered">
-                    <span className="icon icon-phone"></span>
+                    <span className="icon icon-phone">
+                      <img
+                        className="img"
+                        src={phone}
+                        alt="mail"
+                        style={{ height: "30px", width: "30px" }}
+                      />
+                    </span>
                   </div>
                 </div>
                 <div>
                   <h3>Phone</h3>
-                  <p className="contactLink">+234-907-097-0079</p>
+                  <p className="contactLink">+234-907-788-1210</p>
                 </div>
               </a>
             </Fade>
@@ -51,18 +67,22 @@ class Contact extends React.Component {
 
           <div className="contactCard centered">
             <Fade bottom>
-              <a
-                href="mailto:adekniyi@gmail.com"
-                className="contactDetails"
-              >
+              <a href="mailto:adekniyi@gmail.com" className="contactDetails">
                 <div className="centered">
                   <div className="iconBg centered">
-                    <span className="icon icon-mail"></span>
+                    <span className="icon icon-mail">
+                      <img
+                        className="img"
+                        src={mail}
+                        alt="mail"
+                        style={{ height: "30px", width: "30px" }}
+                      />
+                    </span>
                   </div>
                 </div>
                 <div>
                   <h3>Email</h3>
-                  <p className="contactLink">adekniyi@gmail.com</p>
+                  <p className="contactLink">olanrewajugbemi457@gmail.com</p>
                 </div>
               </a>
             </Fade>

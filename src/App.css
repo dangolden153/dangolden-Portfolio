@@ -17,7 +17,9 @@ body {
 :root {
   --primaryColor: #0081af; /* 0, 129, 175 */
   /* --primaryColor : #615cfd; 0, 129, 175 */
-  --accentColor: #e43f5a; /* 35, 206, 107 */
+  --accentColor: #e43f5a;
+  /* --accentColor: #700b97;  */
+
   --dark: #020100; /* 2, 1, 0*/
   --para: #798a9a;
   --fade: rgba(0, 129, 175, 0.5);
@@ -84,8 +86,18 @@ button {
   margin: 0px 20px;
 }
 
-
-
+.btn {
+  transition: 0.5s all ease;
+  cursor: pointer;
+  outline: none;
+  padding: 12px;
+  font-size: 15px;
+  background-color: #77d970;
+  border: none;
+  color: whitesmoke;
+  border-radius: 35px;
+  margin: 0px 20px;
+}
 
 input,
 textarea {
@@ -162,7 +174,7 @@ button:hover {
 }
 .homepageWrapper {
   position: relative;
-  background: url(./Niyi.jpg);
+  background: url(./DAN.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -247,7 +259,6 @@ button:hover {
   color: var(--primaryColor);
 }
 
-
 /* about me style section */
 
 .aboutMeWrapper {
@@ -277,11 +288,10 @@ button:hover {
   margin: 0px;
   /* text-align: center; */
 }
-.descTextCont{
+.descTextCont {
   width: 90%;
   margin: auto;
 }
-
 
 /* skills section style */
 
@@ -338,8 +348,6 @@ button:hover {
   background-color: var(--fade);
   transform: translateY(-20px);
 }
-
-
 
 /* Portfolio section style */
 
@@ -443,8 +451,6 @@ button:hover {
   transform: scale(1.1);
 }
 
-
-
 /* services section style */
 
 .servicesContainer::before {
@@ -513,7 +519,6 @@ button:hover {
   background-color: var(--fade);
   /* cursor: pointer; */
 }
-
 
 /* Resume section style */
 
@@ -640,7 +645,6 @@ button:hover {
   padding-right: 15px;
   word-break: break-all;
 }
-
 
 /* Footer Section style */
 

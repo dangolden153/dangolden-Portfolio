@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 import Landing from "./components/Landing";
 import About from "./components/About";
 import Skill from "./components/Skill";
@@ -12,16 +11,20 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-     <Landing/>
-    <About/>
-    <Skill/>
-    <Portfolio/>
-    <Service/>
-    <Resume/>
-    <Contact/>
-    <Footer/>
+      <Landing />
+      <About />
+      <Skill />
+      <Portfolio />
+      <Service />
+      <Resume />
+      <Contact />
+      <Footer />
     </div>
   );
 }
 
 export default App;
+
+//// picture for landing page .../
+/// provide github link and change the button colors .../
+/// upload the mobile app projects  .../

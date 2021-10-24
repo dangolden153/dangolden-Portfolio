@@ -20,18 +20,20 @@ class About extends React.Component {
                 a strong sense for aesthetics and interaction.
               </p>
               <p className="descText">
-                I have{" "}
-                <span className="primary">
-                  {new Date().getFullYear() - 2018}+ Years
-                </span>{" "}
-                of experience building <span className="primary">Stable</span>{" "}
-                and
-                <span className="primary"> Maintainable</span> websites in
-                fast-paced, collaborative environments. I'm Proficient at{" "}
-                <span className="primary">Creating</span> user interfaces and a{" "}
-                <span className="primary">Team Player </span>
-                versed in <span className="primary">Scrum</span> &{" "}
-                <span className="primary">Agile</span>.
+                Hello Before talking about qualifications and professional
+                abilities,I would like to introduce myself. I am Daniel also
+                known as <span className="primary">Dangolden.</span> Taking Web
+                & App development as a profession not only fulfills my{" "}
+                <span className="primary">pocket</span> but also my heart
+                because it has been my
+                <span className="primary"> passion</span> since my early
+                teenage.I believe that people should do things in which they are
+                good at or in which their{" "}
+                <span className="primary">heart lays.</span> That’s why I chose{" "}
+                <span className="primary">Software development </span>as my{" "}
+                <span className="primary">career</span> because I believe I’m
+                good at this and mas I am always honest and
+                <span className="primary"> I am never afraid </span>.
               </p>
             </div>
             <div>

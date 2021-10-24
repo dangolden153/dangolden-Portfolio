@@ -27,6 +27,22 @@ class Services extends React.Component {
                 </div>
               </div>
             </Fade>
+
+            <Fade bottom>
+              <div className="centered">
+                <div className="serviceContent">
+                  <span className="icon icon-network"></span>
+                  <h1 className="serviceTitle">Mobile App Design</h1>
+                  <p>
+                    Architecting and building Mobile applications, as well as
+                    coordinating with the teams responsible for other layers of
+                    the product infrastructure. Building a product with highly
+                    collaborative effort, and as such, a strong team player with
+                    commitment.
+                  </p>
+                </div>
+              </div>
+            </Fade>
             {/* <Fade bottom>
             <div className="centered">
                 <div className="serviceContent">
@@ -36,18 +52,18 @@ class Services extends React.Component {
                 </div>
               </div>
             </Fade> */}
-            <Fade bottom>
+
+            {/* <Fade bottom>
               <div className="centered">
                 <div className="serviceContent">
                   <span className="icon icon-database"></span>
                   <h1 className="serviceTitle">Database</h1>
                   <p>
-                    Creation and management of MongoDB using Express.Js
-                    and Node, MySQL using C# and Asp .Net Core 
+                    Creation and management of MongoDB using Express.Js and Node
                   </p>
                 </div>
               </div>
-            </Fade>
+            </Fade> */}
           </div>
         </div>
       </div>

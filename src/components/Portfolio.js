@@ -31,7 +31,13 @@ function Projects(props) {
           <div className="centered">
             <button>
               <a rel="noopener noreferrer" target="_blank" href={props.url}>
-                Explore
+                {props.type === "Mobile App" ? "Download" : "Explore "}
+              </a>
+            </button>
+
+            <button className="btn">
+              <a rel="noopener noreferrer" target="_blank" href={props.link}>
+                code
               </a>
             </button>
           </div>
@@ -139,10 +145,10 @@ class Portfolio extends React.Component {
             Frontend Web
           </span>
           <span
-            onClick={(e) => this.filter(e, "Backend Web")}
+            onClick={(e) => this.filter(e, "Mobile App")}
             className="currentTab portfolioTab"
           >
-            Backend Web
+            Mobile App
           </span>
           <span
             onClick={(e) => this.filter(e, "Fullstack Web")}
