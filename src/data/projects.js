@@ -13,6 +13,21 @@ const projectsData = [
     linkHover: "Git Repo",
     linkIcon: "icon-git",
   },
+
+  {
+    name: "Trading App",
+    desc: ` An App used to trade card and btc
+    `,
+    type: "Mobile App",
+    typeIcon: "icon-globe",
+    technology: "React native  and firebase",
+    techIcon: "icon-html-five2",
+    url: "https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40dangolden/tech2Mart-c25df287697b44d3b56129e8bab4b8ee-signed.apk",
+    image: ["/images/2mart.png"],
+    link: "https://github.com/dangolden153/2mart.git",
+    linkHover: "Git Repo",
+    linkIcon: "icon-git",
+  },
   {
     name: "Uber clone",
     desc: `features incluse: google map Api, google auto-complete, calulation of distance , calculation of price base on type of car .
