@@ -1,5 +1,38 @@
 const projectsData = [
   {
+    name: "Presto",
+    desc: ` Presto is an advanced digital wallet you can use for your day to day transactions of:
+
+    Gift cards
+    Exchange your gift card swiftly to cash at amazing rates With an instant cash out.
+    
+    Crypto Assets
+    `,
+    type: "Mobile App",
+    typeIcon: "icon-globe",
+    technology: "React native",
+    techIcon: "icon-html-five2",
+    url: "https://play.google.com/store/apps/details?id=com.presto.presto",
+    image: ["/images/presto.jpeg"],
+    link: "",
+    linkHover: "Git Repo",
+    linkIcon: "icon-git",
+  },
+  {
+    name: "MyHostel",
+    desc: `Myhostel is the right place for you to find the perfect accommodation on Campus, where you can search and book on one click and even find the right roommate.
+    `,
+    type: "Mobile App",
+    typeIcon: "icon-globe",
+    technology: "React native",
+    techIcon: "icon-html-five2",
+    url: "",
+    image: ["/images/myhostel.jpeg"],
+    link: "",
+    linkHover: "Git Repo",
+    linkIcon: "icon-git",
+  },
+  {
     name: "Chatting App",
     desc: `A mobile app built using React native  and firebase real time database. features include: Authentication, Last Message,Upadting of user's profile and so on...
     `,
@@ -14,20 +47,6 @@ const projectsData = [
     linkIcon: "icon-git",
   },
 
-  {
-    name: "Trading App",
-    desc: ` An App used to trade card and btc
-    `,
-    type: "Mobile App",
-    typeIcon: "icon-globe",
-    technology: "React native  and firebase",
-    techIcon: "icon-html-five2",
-    url: "https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40dangolden/tech2Mart-c25df287697b44d3b56129e8bab4b8ee-signed.apk",
-    image: ["/images/2mart.png"],
-    link: "https://github.com/dangolden153/2mart.git",
-    linkHover: "Git Repo",
-    linkIcon: "icon-git",
-  },
   {
     name: "Uber clone",
     desc: `features incluse: google map Api, google auto-complete, calulation of distance , calculation of price base on type of car .

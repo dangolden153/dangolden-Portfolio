@@ -174,10 +174,10 @@ button:hover {
 }
 .homepageWrapper {
   position: relative;
-  background: url(./DAN.jpeg);
+  background: url(./DAN.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   height: 800px;
   width: 100%;
   background-attachment: fixed;

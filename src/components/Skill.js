@@ -37,10 +37,12 @@ class Skills extends React.Component {
                 <span className="icon-code"></span>
                 <ul>
                   <li>JavaScript</li>
+                  <li>TypeScript</li>
                   <li>React.Js</li>
                   <li>React Native</li>
                   <li>Next.Js</li>
                   <li>Redux</li>
+                  <li>Jest</li>
                 </ul>
               </div>
               <div className="skills">
@@ -49,7 +51,7 @@ class Skills extends React.Component {
                   <li>Node JS</li>
                   <li>Mongo DB</li>
                   <li>Express JS</li>
-                  <li>Firebase#</li>
+                  <li>Firebase</li>
                   <li>Aws</li>
                   <li>Git</li>
                 </ul>
